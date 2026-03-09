@@ -6,10 +6,10 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="w-full min-h-[90vh] sm:h-[90vh] sticky text-white bg-black flex flex-col justify-between py-8 sm:py-12 lg:py-16">
+    <footer className="w-full min-h-[70vh] sm:h-[70vh] sticky text-white bg-black flex flex-col justify-between py-8 sm:py-12 lg:py-16">
       <div className="mx-auto w-full px-4 sm:px-6 lg:px-8">
         {/* Contact Section */}
-        <div className="w-full mb-8 sm:mb-12 lg:mb-16" style={{padding:'6% 0'}}>
+        <div className="w-full mb-8 sm:mb-12 lg:mb-16" style={{padding:'1% 0'}}>
           <div className="flex justify-around grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mx-auto">
             <div>
               <a href="mailto:info@example.com" className="inline-flex items-center gap-2 sm:gap-3 text-white hover:text-gray-300 transition-colors group mb-4 flex-wrap">

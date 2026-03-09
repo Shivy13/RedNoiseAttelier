@@ -58,7 +58,7 @@ export default function AboutSection() {
                 transition={{ duration: 0.01,  type:'tween', ease: 'backInOut', }}
                 ref={imageContainerRef}
                 style={{ width: '70%', margin:'auto' }}
-                className="relative  text-center shadow-card h-[100vh] md:h-[100vh] mx-auto"
+                className="relative  text-center shadow-card h-[70vh] md:h-[70vh] mx-auto"
               >
                   <Image
                     src="/image/img/img1.jpg"
