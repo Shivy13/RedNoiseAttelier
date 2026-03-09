@@ -31,6 +31,12 @@ body::-webkit-scrollbar{
 
 @import 'tailwindcss';
 
+.text-outline {
+  -webkit-text-stroke: 1px rgb(206, 206, 206);
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 4px;
+
+}
 
 * {
   margin: 0;
