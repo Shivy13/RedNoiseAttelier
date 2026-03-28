@@ -27,7 +27,7 @@ const stats = [
 export default function StatsSection() {
   return (
     <section className="flex justify-center px-4 sm:px-6 lg:px-8 mx-auto py-12 sm:py-20 lg:py-32" style={{padding:'5%'}}>
-      <div className="w-full max-w-5xl">
+      <div className="w-full ">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -35,10 +35,10 @@ export default function StatsSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-8 sm:mb-12 lg:mb-16"
         >
-          <h2 className="text-4xl sm:text-3xl md:text-4xl lg:text-7xl xl:text-8xl uppercase font-bold leading-tight">
-            Helping your<br className="hidden sm:block" />
-            business reach its<br className="hidden sm:block" />
-            full potential
+          <h2 className="text-3xl md:text-4xl lg:text-6xl uppercase font-bold leading-tight">
+            Helping your business<br className="hidden sm:block" />
+             reach its full potential<br className="hidden sm:block" />
+            
           </h2>
         </motion.div>
 
